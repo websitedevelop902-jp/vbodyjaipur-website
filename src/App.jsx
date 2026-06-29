@@ -19,14 +19,14 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/process" element={<Process />} />
         <Route path="/contact" element={<Contact />} />
-        <a
+        {/* <a
           href="https://wa.me/919660244357"
           className="whatsapp-float"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaWhatsapp />
-        </a>
+        </a> */}
       </Routes>
     </BrowserRouter>
 
