@@ -27,19 +27,21 @@ function Footer() {
           <div className="footer-col">
             <h5>Contact Information</h5>
 
-            <p>
-              
+
+
+            <div className="mt-3">
               <a
                 href="https://www.google.com/maps/dir/?api=1&destination=27.046062,75.806185"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn btn-warning"
+                className="btn btn-warning btn-sm"
               >
-                📍 Get Directions<br/>
+                📍 Get Directions
               </a>
-              Khasra No. 430-431, 436, Sevapura, New Transport Nagar, Jaipur, Rajasthan
+            </div>
 
-            </p>
+
+
 
             <p>
               📧{" "}
