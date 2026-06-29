@@ -38,9 +38,9 @@ function Footer() {
                 referrerPolicy="strict-origin-when-cross-origin"
                 allowFullScreen
                 title="Google Map"
-              ></iframe>
+              >
               Khasra No. 430-431, 436, Sevapura, New Transport Nagar, Jaipur, Rajasthan
-
+</iframe>
             </p>
 
             <p>
