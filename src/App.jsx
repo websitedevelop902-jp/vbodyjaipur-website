@@ -6,11 +6,12 @@ import Gallery from "./pages/Gallery";
 import Process from "./pages/Process";
 import Contact from "./pages/Contact";
 import ScrollToTop from "./Components/ScrollToTop";
+import { FaWhatsapp } from "react-icons/fa";
 
 function App() {
   return (
     <BrowserRouter>
-    <ScrollToTop />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />
@@ -18,8 +19,17 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/process" element={<Process />} />
         <Route path="/contact" element={<Contact />} />
+        <a
+          href="https://wa.me/919660244357"
+          className="whatsapp-float"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaWhatsapp />
+        </a>
       </Routes>
     </BrowserRouter>
+
   );
 }
 

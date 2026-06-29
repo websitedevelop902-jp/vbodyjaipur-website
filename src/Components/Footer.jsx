@@ -40,12 +40,8 @@ function Footer() {
               </a>
             </div>
 
-
-
-
             <p>
               📧{" "}
-
               <a
                 href="https://mail.google.com/mail/?view=cm&fs=1&to=vishwakarma.busbody@gmail.com"
                 target="_blank"
