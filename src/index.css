@@ -622,6 +622,20 @@
   color:#64748b;
   line-height:1.7;
 }
+
+.contact-map {
+    margin-top: 40px;
+}
+
+.contact-map h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-map iframe {
+    width: 100%;
+    max-width: 100%;
+}
 /* MOBILE */
 
 @media(max-width:768px){
