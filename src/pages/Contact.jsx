@@ -83,40 +83,40 @@ function Contact() {
 
               <form ref={form} onSubmit={sendEmail}>
                 <input
-  type="text"
-  name="name"
-  placeholder="Your Name"
-  className="form-control mb-3"
-  required
-/>
+                  type="text"
+                  name="name"
+                  placeholder="Your Name"
+                  className="form-control mb-3"
+                  required
+                />
 
-               <input
-  type="tel"
-  name="phone"
-  placeholder="Phone Number"
-  className="form-control mb-3"
-  required
-/>
+                <input
+                  type="tel"
+                  name="phone"
+                  placeholder="Phone Number"
+                  className="form-control mb-3"
+                  required
+                />
 
-               <input
-  type="email"
-  name="email"
-  placeholder="Email Address"
-  className="form-control mb-3"
-  required
-/>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email Address"
+                  className="form-control mb-3"
+                  required
+                />
 
-               <textarea
-  name="message"
-  rows="5"
-  placeholder="Your Message"
-  className="form-control mb-3"
-  required
-></textarea>
+                <textarea
+                  name="message"
+                  rows="5"
+                  placeholder="Your Message"
+                  className="form-control mb-3"
+                  required
+                ></textarea>
 
-               <button type="submit" className="btn btn-warning">
-  Send Message
-</button>
+                <button type="submit" className="btn btn-warning">
+                  Send Message
+                </button>
               </form>
             </div>
 
