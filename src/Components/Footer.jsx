@@ -28,14 +28,14 @@ function Footer() {
             <h5>Contact Information</h5>
 
             <p>
-              📍{" "}
+              
               <a
                 href="https://www.google.com/maps/dir/?api=1&destination=27.046062,75.806185"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-warning"
               >
-                📍 Get Directions
+                📍 Get Directions<br/>
               </a>
               Khasra No. 430-431, 436, Sevapura, New Transport Nagar, Jaipur, Rajasthan
 
