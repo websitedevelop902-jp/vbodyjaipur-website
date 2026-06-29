@@ -31,24 +31,14 @@ function Contact() {
                 vishwakarma.busbody@gmail.com
               </a>
 
-              <h2>Our Location</h2>
-
-
-
-<p className="mt-3">
-  📍 Khasra No. 430-431, 436,<br />
-  Sevapura, New Transport Nagar,<br />
-  Jaipur, Rajasthan
-</p>
-
-<a
-  href="https://www.google.com/maps/dir/?api=1&destination=27.046062,75.806185"
-  className="btn btn-warning"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  📍 Get Directions
-</a>
+              <a
+                href="https://www.google.com/maps/dir/?api=1&destination=27.046062,75.806185"
+                className="btn btn-warning"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                📍 Get Directions
+              </a>
 
               <p>🕒 Mon - Sat : 9:00 AM - 7:00 PM</p>
 
