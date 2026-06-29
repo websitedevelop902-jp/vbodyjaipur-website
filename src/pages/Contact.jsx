@@ -1,8 +1,31 @@
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
-
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_e5j3gv6",
+        "template_uay79vl",
+        form.current,
+        "Rxe4BJiBQRO3hFVQl"
+      )
+      .then(() => {
+        alert("Message Sent Successfully!");
+        e.target.reset();
+      })
+      .catch((error) => {
+        console.log(error);
+        alert("Failed to send message.");
+      });
+  };
+
   return (
     <>
       <Navbar />
@@ -58,34 +81,42 @@ function Contact() {
             <div className="contact-form-box">
               <h3>Send Inquiry</h3>
 
-              <form>
+              <form ref={form} onSubmit={sendEmail}>
                 <input
-                  type="text"
-                  placeholder="Your Name"
-                  className="form-control mb-3"
-                />
+  type="text"
+  name="name"
+  placeholder="Your Name"
+  className="form-control mb-3"
+  required
+/>
 
-                <input
-                  type="tel"
-                  placeholder="Phone Number"
-                  className="form-control mb-3"
-                />
+               <input
+  type="tel"
+  name="phone"
+  placeholder="Phone Number"
+  className="form-control mb-3"
+  required
+/>
 
-                <input
-                  type="email"
-                  placeholder="Email Address"
-                  className="form-control mb-3"
-                />
+               <input
+  type="email"
+  name="email"
+  placeholder="Email Address"
+  className="form-control mb-3"
+  required
+/>
 
-                <textarea
-                  rows="5"
-                  placeholder="Your Message"
-                  className="form-control mb-3"
-                ></textarea>
+               <textarea
+  name="message"
+  rows="5"
+  placeholder="Your Message"
+  className="form-control mb-3"
+  required
+></textarea>
 
-                <button className="btn btn-warning">
-                  Send Message
-                </button>
+               <button type="submit" className="btn btn-warning">
+  Send Message
+</button>
               </form>
             </div>
 
