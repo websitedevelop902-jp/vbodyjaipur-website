@@ -9,7 +9,7 @@ function Navbar() {
         <div className="scroll-text">
           🚍 Luxury Coach Body Building • 🚌 School Bus Manufacturing •
           🛏️ Sleeper Bus Fabrication • ✨ Premium Bus Interiors •
-          📞 +91 9660243457 • 📧 vishwakarma.busbody@gmail.com
+          📞 +91 9660244357 • 📧 vishwakarma.busbody@gmail.com
         </div>
       </div>
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark py-3">
