@@ -1,3 +1,7 @@
+<h6 style={{ color: "red" }}>
+TEST BY ANJALI
+</h6>
+
 import heroBus from "../assets/images/hero-bus.jpg";
 import { Link } from "react-router-dom";
 
