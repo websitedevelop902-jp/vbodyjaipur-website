@@ -17,8 +17,8 @@ function Hero() {
             </span>
 
             <h1>
-              Crafting Premium Bus Bodies
-              <span> with Quality & Innovation</span>
+              Premium Bus Body <br />
+              Manufacturing & Design Solutions
             </h1>
 
             <p>
@@ -31,17 +31,15 @@ function Hero() {
 
               <Link
                 to="/contact"
-                className="btn btn-warning btn-lg"
-              >
+                className="btn btn-warning btn-lg">
                 Get Quote
               </Link>
 
-              <Link
-                to="/services"
-                className="btn btn-outline-light btn-lg"
-              >
-                Explore Services
-              </Link>
+              <a
+                href="tel:+919660244357"
+                className="btn btn-outline-light btn-lg">
+                Call Now
+              </a>
 
             </div>
 
