@@ -1,28 +1,51 @@
 import heroBus from "../assets/images/hero-bus.jpg";
-
 import { Link } from "react-router-dom";
 
 function Hero() {
   return (
-    <section className="hero"
-      style={{ backgroundImage: `url(${heroBus})` }}>
+    <section
+      className="hero"
+      style={{ backgroundImage: `url(${heroBus})` }}
+    >
       <div className="hero-overlay">
-        <div className="container text-center">
+        <div className="container">
 
-          <h1>
-            Premium Bus Body Manufacturing & Design Solutions
-          </h1>
+          <div className="hero-content">
 
-          <p>
-            Luxury Coaches • Sleeper AC Buses • School Buses • AC/Non-AC Buses • Custom Bus Body Fabrication
-          </p>
+            <span className="hero-tag">
+              Premium Bus Body Builders
+            </span>
 
-          <Link
-            to="/contact"
-            className="btn btn-warning btn-lg mt-3"
-          >
-            Get Quote
-          </Link>
+            <h1>
+              Crafting Premium Bus Bodies
+              <span> with Quality & Innovation</span>
+            </h1>
+
+            <p>
+              Vishwakarma Body Builders specializes in Luxury Coaches,
+              School Buses, Staff Buses, AC/Non-AC Buses and Customized
+              Bus Body Manufacturing with superior quality and safety.
+            </p>
+
+            <div className="hero-buttons">
+
+              <Link
+                to="/contact"
+                className="btn btn-warning btn-lg"
+              >
+                Get Quote
+              </Link>
+
+              <Link
+                to="/services"
+                className="btn btn-outline-light btn-lg"
+              >
+                Explore Services
+              </Link>
+
+            </div>
+
+          </div>
 
         </div>
       </div>
