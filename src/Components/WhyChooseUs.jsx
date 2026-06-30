@@ -1,10 +1,10 @@
 import {
   FaShieldAlt,
   FaTools,
-  FaUsers,
+  FaUsersCog,
   FaClock,
-  FaRupeeSign,
-  FaHeadset,
+  FaHandshake,
+  FaAward,
 } from "react-icons/fa";
 
 function WhyChooseUs() {
@@ -12,7 +12,7 @@ function WhyChooseUs() {
     {
       icon: <FaShieldAlt />,
       title: "Premium Quality",
-      text: "High-quality materials and durable bus body manufacturing."
+      text: "We use high-quality materials to build durable and reliable bus bodies."
     },
     {
       icon: <FaTools />,
@@ -20,24 +20,24 @@ function WhyChooseUs() {
       text: "Customized bus body solutions according to customer requirements."
     },
     {
-      icon: <FaUsers />,
+      icon: <FaUsersCog />,
       title: "Experienced Team",
-      text: "Skilled engineers and fabricators with years of experience."
+      text: "Highly skilled professionals with years of manufacturing experience."
     },
     {
       icon: <FaClock />,
       title: "On-Time Delivery",
-      text: "Projects completed and delivered within the committed timeline."
+      text: "We always complete projects within the promised timeline."
     },
     {
-      icon: <FaRupeeSign />,
-      title: "Competitive Pricing",
-      text: "Affordable pricing without compromising on quality."
+      icon: <FaHandshake />,
+      title: "Trusted Service",
+      text: "Customer satisfaction and long-term relationships are our priority."
     },
     {
-      icon: <FaHeadset />,
-      title: "Customer Support",
-      text: "Dedicated support before and after project completion."
+      icon: <FaAward />,
+      title: "Best Workmanship",
+      text: "Modern manufacturing techniques with attention to every detail."
     },
   ];
 
@@ -45,13 +45,18 @@ function WhyChooseUs() {
     <section className="why-section">
       <div className="container">
 
-        <div className="section-title">
+        <div className="section-heading">
           <span>WHY CHOOSE US</span>
-          <h2>Trusted Bus Body Manufacturer in Jaipur</h2>
+
+          <h2>
+            Why Customers Trust
+            <br />
+            Vishwakarma Body Builders
+          </h2>
+
           <p>
-            We manufacture luxury coaches, school buses, sleeper buses,
-            and customized bus body solutions with premium quality and
-            timely delivery.
+            We manufacture premium quality bus bodies with modern technology,
+            skilled craftsmanship and timely delivery for every customer.
           </p>
         </div>
 
