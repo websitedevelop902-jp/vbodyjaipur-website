@@ -15,7 +15,7 @@ function Home() {
       <AboutSection />
       <Services />
       <WhyChooseUs />
-      <GallerySection />
+      <GallerySection showButton={true} />
       <ProcessSection />
       <ContactCTA />
       <Footer />

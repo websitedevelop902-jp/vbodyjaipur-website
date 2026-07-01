@@ -49,12 +49,10 @@ function GallerySection() {
 
                 <div className="gallery-overlay">
 
-                  <Link
-                    to="/gallery"
-                    className="btn btn-warning"
-                  >
-                    View Gallery
-                  </Link>
+                  {showButton && (
+                    <Link to="/gallery" className="btn btn-primary">
+                      View Gallery
+                    </Link>)}
 
                 </div>
 
