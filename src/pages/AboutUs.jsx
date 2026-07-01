@@ -1,12 +1,12 @@
 import Navbar from "../Components/Navbar";
-import AboutSection from "../Components/AboutSection";
+import AboutPage from "../Components/AboutPage";
 import Footer from "../Components/Footer";
 
 function AboutUs() {
   return (
     <>
       <Navbar />
-      <AboutSection />
+      <AboutPage />
       <Footer />
     </>
   );

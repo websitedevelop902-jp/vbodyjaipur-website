@@ -13,12 +13,9 @@ import bus3 from "../assets/images/bus4.jpg";
 function AboutSection() {
   return (
     <section className="about-home">
-
       <div className="container">
 
         <div className="row align-items-center">
-
-          {/* LEFT */}
 
           <div className="col-lg-6">
 
@@ -26,7 +23,7 @@ function AboutSection() {
 
               <img
                 src={bus1}
-                alt=""
+                alt="Bus"
                 className="about-img-large"
               />
 
@@ -39,12 +36,12 @@ function AboutSection() {
 
                 <img
                   src={bus2}
-                  alt=""
+                  alt="Bus"
                 />
 
                 <img
                   src={bus3}
-                  alt=""
+                  alt="Bus"
                 />
 
               </div>
@@ -53,8 +50,6 @@ function AboutSection() {
 
           </div>
 
-          {/* RIGHT */}
-
           <div className="col-lg-6">
 
             <span className="section-tag">
@@ -62,22 +57,20 @@ function AboutSection() {
             </span>
 
             <h2 className="about-title">
-              Building Premium Bus Bodies
-              Since 2000
+              Building Premium Bus Bodies Since 2000
             </h2>
 
             <p className="about-text">
-              Vishwakarma Body Builders is one of Jaipur's leading
-              bus body manufacturers with more than 25 years of
-              experience in designing and building premium quality
-              buses for schools, corporate, tourism and public transport.
+              Vishwakarma Body Builders is one of Jaipur's leading bus body
+              manufacturers with more than 25 years of experience in designing
+              and building premium quality buses for schools, corporate,
+              tourism and public transport.
             </p>
 
             <p className="about-text">
               Every vehicle is manufactured with modern technology,
               skilled craftsmanship and strict quality inspection
-              to ensure maximum safety, durability and customer
-              satisfaction.
+              to ensure maximum safety, durability and customer satisfaction.
             </p>
 
             <div className="about-features">
@@ -115,8 +108,31 @@ function AboutSection() {
 
         </div>
 
-      </div>
+        <div className="about-stats">
 
+          <div className="stat-card">
+            <h2>25+</h2>
+            <p>Years Experience</p>
+          </div>
+
+          <div className="stat-card">
+            <h2>500+</h2>
+            <p>Projects Completed</p>
+          </div>
+
+          <div className="stat-card">
+            <h2>120+</h2>
+            <p>Happy Clients</p>
+          </div>
+
+          <div className="stat-card">
+            <h2>100%</h2>
+            <p>Quality Assurance</p>
+          </div>
+
+        </div>
+
+      </div>
     </section>
   );
 }

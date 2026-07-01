@@ -1,31 +1,48 @@
-import { FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function ContactCTA() {
   return (
-    <section className="contact-cta">
-      <div className="container text-center">
-        <h2>Need a Custom Bus Body Design?</h2>
+    <section className="cta-section">
 
-        <p>
-          Contact Vishwakarma Body Builders for premium luxury coaches,
-          sleeper buses, school buses and custom bus body fabrication.
-        </p>
+      <div className="container">
 
-        <div className="cta-buttons">
-          <a href="tel:+919660244357" className="call-btn">
-            <FaPhoneAlt /> Call Now
-          </a>
+        <div className="cta-box">
 
-          <a
-            href="https://wa.me/+919660244357"
-            target="_blank"
-            rel="noreferrer"
-            className="whatsapp-btn"
-          >
-            <FaWhatsapp /> WhatsApp
-          </a>
+          <span className="section-tag">
+            GET IN TOUCH
+          </span>
+
+          <h2>
+            Looking for Premium Bus Body Manufacturing?
+          </h2>
+
+          <p>
+            Contact Vishwakarma Body Builders today for luxury coaches,
+            school buses, staff buses and customized bus body solutions.
+          </p>
+
+          <div className="cta-buttons">
+
+            <Link
+              to="/contact"
+              className="btn btn-warning btn-lg"
+            >
+              Get Quote
+            </Link>
+
+            <a
+              href="tel:+919660244357"
+              className="btn btn-outline-light btn-lg"
+            >
+              Call Now
+            </a>
+
+          </div>
+
         </div>
+
       </div>
+
     </section>
   );
 }
