@@ -1,6 +1,6 @@
 import { FaPhoneAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import logo from "../assets/images/logo.png";
+import logo from "../assets/images/favicon.png";
 
 function Navbar() {
   return (

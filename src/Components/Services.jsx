@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-
 import bus1 from "../assets/images/bus1.jpg";
 import bus2 from "../assets/images/bus2.jpg";
 import bus3 from "../assets/images/bus3.jpg";
@@ -89,7 +88,7 @@ function Services() {
 
                   <p>{item.text}</p>
 
-                  
+
 
                 </div>
 

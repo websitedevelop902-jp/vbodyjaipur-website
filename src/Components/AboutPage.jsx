@@ -105,7 +105,7 @@ function AboutPage() {
 
       </section>
 
-            {/* Mission & Vision */}
+      {/* Mission & Vision */}
 
       <section className="mission-section">
 
@@ -242,7 +242,7 @@ function AboutPage() {
 
       </section>
 
-            {/* Factory Gallery */}
+      {/* Factory Gallery */}
 
       <section className="factory-gallery">
 

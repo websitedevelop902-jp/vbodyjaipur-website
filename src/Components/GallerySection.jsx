@@ -1,10 +1,8 @@
 import { Link } from "react-router-dom";
-
 import bus2 from "../assets/images/bus2.jpg";
 import bus4 from "../assets/images/bus4.jpg";
 import bus5 from "../assets/images/bus5.jpg";
 import bus6 from "../assets/images/bus6.jpg";
-
 import vbus from "../assets/images/videos/vbus.mp4";
 import vbus2 from "../assets/images/videos/vbus2.mp4";
 import vbus3 from "../assets/images/videos/vbus3.mp4";
@@ -46,19 +44,19 @@ function GallerySection() {
 
                 <img
                   src={img}
-                  alt="Bus"
+                  alt="Luxury Bus Body Builder in Jaipur"
                 />
 
-                <div className="gallery-overlay">
+                {/* <div className="gallery-overlay"> */}
 
-                  <Link
+                  {/* <Link
                     to="/gallery"
                     className="btn btn-warning"
                   >
                     View Gallery
-                  </Link>
+                  </Link> */}
 
-                </div>
+                {/* </div> */}
 
               </div>
 
