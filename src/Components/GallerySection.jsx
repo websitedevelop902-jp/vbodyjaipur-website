@@ -13,7 +13,7 @@ import vbus6 from "../assets/images/videos/vbus6.mp4";
 const images = [bus2, bus4, bus5, bus6];
 const videos = [vbus, vbus2, vbus3, vbus4, vbus5, vbus6];
 
-function GallerySection() {
+function GallerySection({ showButton = true }) {
   return (
     <section className="gallery-section">
 
