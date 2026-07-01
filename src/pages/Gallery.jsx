@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-
+import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
 import bus2 from "../assets/images/bus2.jpg";
 import bus4 from "../assets/images/bus4.jpg";
 import bus5 from "../assets/images/bus5.jpg";
@@ -51,13 +52,13 @@ function GallerySection() {
 
                 {/* <div className="gallery-overlay"> */}
 
-                  {/* <Link
+                {/* <Link
                     to="/gallery"
                     className="btn btn-warning"
                   >
                     View Gallery
                   </Link> */}
-{/* 
+                {/* 
                 </div> */}
 
               </div>
