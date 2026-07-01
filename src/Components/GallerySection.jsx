@@ -47,16 +47,16 @@ function GallerySection() {
                   alt="Luxury Bus Body Builder in Jaipur"
                 />
 
-                {/* <div className="gallery-overlay"> */}
+                <div className="gallery-overlay">
 
-                  {/* <Link
+                  <Link
                     to="/gallery"
                     className="btn btn-warning"
                   >
                     View Gallery
-                  </Link> */}
+                  </Link>
 
-                {/* </div> */}
+                </div>
 
               </div>
 
