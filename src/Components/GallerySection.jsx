@@ -44,6 +44,7 @@ function GallerySection({ showButton = true }) {
 
                 <img
                   src={img}
+                  loading="lazy"
                   alt="Luxury Bus Body Builder in Jaipur"
                 />
 

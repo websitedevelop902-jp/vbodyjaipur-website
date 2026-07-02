@@ -3,8 +3,12 @@ import Footer from "../Components/Footer";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
+import { useEffect } from "react";
 
 function Contact() {
+  useEffect(() => {
+    document.title = "Contact Us | Vishwakarma Body Builders Jaipur";
+  }, []);
   const form = useRef();
 
   const sendEmail = (e) => {

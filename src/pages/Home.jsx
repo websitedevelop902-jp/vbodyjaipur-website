@@ -7,7 +7,13 @@ import GallerySection from "../Components/GallerySection";
 import ProcessSection from "../Components/ProcessSection";
 import ContactCTA from "../Components/ContactCTA";
 import Footer from "../Components/Footer";
+import { useEffect } from "react";
 function Home() {
+  useEffect(() => {
+    document.title =
+      "Vishwakarma Body Builders Jaipur | Luxury Bus Body Builders";
+  }, []);
+
   return (
     <>
       <Navbar />

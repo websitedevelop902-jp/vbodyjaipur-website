@@ -8,8 +8,13 @@ import {
   FaCheckCircle,
   FaTruck,
 } from "react-icons/fa";
+import { useEffect } from "react";
 
 function Process() {
+  useEffect(() => {
+    document.title =
+      "Manufacturing Process | Vishwakarma Body Builders Jaipur";
+  }, []);
   const processSteps = [
     {
       icon: <FaClipboardList />,
