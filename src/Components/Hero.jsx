@@ -14,7 +14,6 @@ function Hero() {
     "Luxury Coach Builders",
     "School Bus Manufacturing",
     "Sleeper Bus Fabrication",
-    "Staff Bus Manufacturing",
     "Custom Bus Body Solutions",
   ];
 
