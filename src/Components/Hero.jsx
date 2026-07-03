@@ -24,11 +24,11 @@ function Hero() {
 
     const imageInterval = setInterval(() => {
       setCurrentImage((prev) => (prev + 1) % images.length);
-    }, 5000);
+    }, 1000);
 
-    const textInterval = setInterval(() => {
-      setCurrentText((prev) => (prev + 1) % texts.length);
-    }, 2500);
+    // const textInterval = setInterval(() => {
+    //   setCurrentText((prev) => (prev + 1) % texts.length);
+    // }, 2500);
 
     return () => {
       clearInterval(imageInterval);
