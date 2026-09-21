@@ -1,6 +1,6 @@
-import bus1 from "../assets/images/bus5.jpg";
-import bus2 from "../assets/images/bus6.jpg";
-import bus3 from "../assets/images/bus4.jpg";
+import bus1 from "../assets/images/bus1.jpg";
+import bus2 from "../assets/images/bus2.jpg";
+import bus3 from "../assets/images/bus3.jpg";
 import { Link } from "react-router-dom";
 
 function AboutPage() {
@@ -268,12 +268,6 @@ function AboutPage() {
             <img src={bus2} alt="Bus" />
 
             <img src={bus3} alt="Bus" />
-
-            <img src={bus2} alt="Bus" />
-
-            <img src={bus3} alt="Bus" />
-
-            <img src={bus1} alt="Bus" />
 
           </div>
 

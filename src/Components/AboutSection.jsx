@@ -6,9 +6,9 @@ import {
   FaUsers,
 } from "react-icons/fa";
 
-import bus1 from "../assets/images/bus5.jpg";
-import bus2 from "../assets/images/bus6.jpg";
-import bus3 from "../assets/images/bus4.jpg";
+import bus5 from "../assets/images/bus5.jpg";
+import bus6 from "../assets/images/bus6.jpg";
+import bus4 from "../assets/images/bus4.jpg";
 
 function AboutSection() {
   return (
@@ -22,7 +22,7 @@ function AboutSection() {
             <div className="about-images">
 
               <img
-                src={bus1}
+                src={bus5}
                 alt="Bus"
                 className="about-img-large"
               />
@@ -35,12 +35,12 @@ function AboutSection() {
               <div className="about-small-images">
 
                 <img
-                  src={bus2}
+                  src={bus6}
                   alt="Bus"
                 />
 
                 <img
-                  src={bus3}
+                  src={bus4}
                   alt="Bus"
                 />
 
