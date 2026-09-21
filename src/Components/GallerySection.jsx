@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
+import bus1 from "../assets/images/bus1.jpg";
 import bus2 from "../assets/images/bus2.jpg";
+import bus3 from "../assets/images/bus3.jpg";
 import bus4 from "../assets/images/bus4.jpg";
 import bus5 from "../assets/images/bus5.jpg";
 import bus6 from "../assets/images/bus6.jpg";
@@ -10,7 +12,7 @@ import vbus4 from "../assets/images/videos/vbus4.mp4";
 import vbus5 from "../assets/images/videos/vbus5.mp4";
 import vbus6 from "../assets/images/videos/vbus6.mp4";
 
-const images = [bus2, bus4, bus5, bus6];
+const images = [bus1, bus2, bus3, bus4, bus5, bus6];
 const videos = [vbus, vbus2, vbus3, vbus4, vbus5, vbus6];
 
 function GallerySection({ showButton = true }) {
