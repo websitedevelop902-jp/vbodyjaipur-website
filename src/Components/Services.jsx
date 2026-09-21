@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import bus1 from "../assets/images/bus1.jpg";
 import bus2 from "../assets/images/bus2.jpg";
 import bus3 from "../assets/images/bus3.jpg";
-import bus4 from "../assets/images/bus4.jpg";
+import herobus from "../assets/images/hero-bus.jpg";
 import bus5 from "../assets/images/bus5.jpg";
 import bus6 from "../assets/images/bus6.jpg";
 
@@ -30,7 +30,7 @@ function Services() {
 
     {
       title: "Bus Modification",
-      image: bus4,
+      image: herobus,
       text: "Professional bus modification and renovation."
     },
 

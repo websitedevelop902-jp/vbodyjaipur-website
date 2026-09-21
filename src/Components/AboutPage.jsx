@@ -9,29 +9,27 @@ function AboutPage() {
 
       {/* Hero Banner */}
 
-      <section className="about-banner">
+      <div className="about-banner">
 
         <div className="about-banner-overlay">
 
-          <div className="container">
+          <span>ABOUT US</span>
 
-            <span>ABOUT US</span>
+          <h1>
+            Building Premium Bus Bodies
+            Since 2000
+          </h1>
 
-            <h1>
-              Building Premium Bus Bodies
-              Since 2000
-            </h1>
-
-            <p>
-              Delivering Quality, Safety and Innovation
-              for more than 25 Years.
-            </p>
-
-          </div>
+          <p>
+            Delivering Quality, Safety and Innovation
+            for more than 25 Years.
+          </p>
 
         </div>
 
-      </section>
+      </div>
+
+
 
       {/* Company Story */}
 
