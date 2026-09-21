@@ -1,14 +1,18 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
-import hero4 from "../assets/images/bus6.jpg";
 import hero1 from "../assets/images/hero-bus.jpg";
-import hero2 from "../assets/images/bus4.jpg";
-import hero3 from "../assets/images/bus5.jpg";
+import bus6 from "../assets/images/bus6.jpg";
+import bus5 from "../assets/images/bus5.jpg";
+import bus4 from "../assets/images/bus4.jpg";
+import bus3 from "../assets/images/bus3.jpg";
+import bus2 from "../assets/images/bus2.jpg";
+import bus1 from "../assets/images/bus1.jpg";
+
 
 
 function Hero() {
 
-  const images = [hero4, hero2, hero3, hero1];
+  const images = [hero1, bus6, bus5, bus4, bus3, bus2, bus1];
 
   const texts = [
     "Luxury Coach Builders",
